@@ -5,7 +5,7 @@ body {
 #content {
   max-width: 960px;
   margin: 0 auto;
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 .home-grid {
@@ -27,7 +27,7 @@ header {
   display: grid;
   grid-template-columns: 1fr, 1fr;
   border-radius: 1em / 1em;
-  background: #05a7c4;
+  background: #ecaa2f;
   padding: 20px;
   margin: 0 auto;
   padding-top: 10px;
@@ -66,7 +66,7 @@ h2 {
 .social-box {
   display: grid;
   border-radius: 1em / 1em;
-  background-color: #05a7c4;
+  background-color: #ecaa2f;
   background-position: center;
   padding: 10px;
   margin: 0 auto;
