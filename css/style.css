@@ -3,13 +3,17 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #b47940;
 }
 
 #content {
   max-width: 960px;
   margin: 0 auto;
   background-color: #ffffff;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 1em / 1em;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .home-grid {
@@ -37,23 +41,20 @@ header {
   padding-top: 10px;
   max-width: 100%;
   height: 150px;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);*/
 }
 
 img {
   grid-column: 2 auto;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5em / 0.5em;
 }
 
 h1 {
   justify-items: right;
   align-self: center;
   grid-column: 2;
-  color: white;
-}
-
-h2 {
-  text-shadow: 0 0 5px;
+  color: rgb(2, 2, 2);
 }
 
 .heading {
@@ -78,7 +79,7 @@ h2 {
   margin-bottom: 5px;
   max-width: 100%;
   height: 80px;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);*/
 }
 
 footer {
@@ -90,6 +91,7 @@ li {
   display: flex;
   align-items: center;
   line-height: 2;
+  font-family: sans-serif;
 }
 
 .title {
@@ -97,11 +99,11 @@ li {
 }
 
 .p-white {
-  color: white;
+  color: rgb(8, 8, 8);
 }
 
 .p-yellow {
-  color: yellow;
+  color: rgb(10, 10, 10);
 
 }
 
@@ -110,6 +112,7 @@ li {
 }
 
 p {
+  font-family: sans-serif;
   text-align: center;
 }
 
