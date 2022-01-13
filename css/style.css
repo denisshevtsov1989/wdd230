@@ -57,6 +57,12 @@ h1 {
   color: rgb(2, 2, 2);
 }
 
+h2 {
+  font-family: sans-serif;
+  padding-left: 10px;
+}
+
+
 .heading {
   padding-left: 200px;
   padding-top: 40px;
@@ -96,6 +102,7 @@ li {
 
 .title {
   margin-left: 20px;
+  font-family: sans-serif;
 }
 
 .p-white {
