@@ -23,7 +23,7 @@ body {
 
 .li {
   display: grid;
-  margin-right: 700px;
+
 }
 
 .my-photo {
@@ -33,7 +33,7 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: 1fr, 1fr;
+
   border-radius: 1em / 1em;
   background: #ecaa2f;
   padding: 20px;
