@@ -7,7 +7,7 @@ body {
 }
 
 #content {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: #ffffff;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
@@ -34,6 +34,7 @@ h1 {
 .home-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 10 px;
 }
 
 .first-block {
