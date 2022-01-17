@@ -1,20 +1,25 @@
 @media only screen and (min-width: 60em) {
-    body {  
+    body {
         max-width: 1040px;
         align-self: center;
     }
-    main{
+
+    main {
         grid-template-columns: 1fr 1fr 1fr;
         margin: auto;
     }
+
     img {
         max-width: 95%;
     }
 
-    h3{
+    h3 {
         color: aliceblue;
     }
-    .section3{
+
+    .section3 {
         grid-column: 3;
     }
+
+
 }

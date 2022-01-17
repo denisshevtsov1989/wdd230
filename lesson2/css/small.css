@@ -6,7 +6,6 @@ body {
   background-color: #b3b4bb9a;
   font-family: sans-serif;
   max-width: 400px;
-  margin: auto;
 }
 
 header {
@@ -62,8 +61,11 @@ img {
 footer {
   display: grid;
   background: #4c589e;
-  margin: 10px auto;
   padding: 10px;
   max-height: 200px;
   text-align: center;
+}
+
+.copyright {
+  color: rgb(255, 255, 255);
 }
