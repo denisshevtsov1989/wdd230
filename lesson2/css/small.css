@@ -3,13 +3,14 @@ html {
 }
 
 body {
-  background-color: #b3b4bb9a;
-  font-family: sans-serif;
-  max-width: 400px;
+  background-color: #e5cf91ec;
+
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 header {
-  background-color: #4c589e;
+  background-color: #2c345f;
 }
 
 #content {
@@ -19,6 +20,7 @@ header {
 }
 
 h1 {
+  font-family: sans-serif;
   font-size: 36px;
   font-weight: bold;
   text-align: center;
@@ -26,17 +28,37 @@ h1 {
 }
 
 h2 {
+
+  font-family: sans-serif;
   text-align: center;
-  font-weight: bold;
+}
+
+.critery {
+  background-color: #50556e;
+  height: 3.3rem;
+  color: white;
+}
+
+.title {
+  justify-content: center;
+
+}
+
+p {
+  font-family: sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   grid-gap: 10px;
 }
 
 .block {
+  align-self: start;
   font-size: 25px;
   text-align: center;
   margin-bottom: 10px;
@@ -45,14 +67,18 @@ main {
 .first-block,
 .second-block,
 .third-block {
-  display: grid;
+  align-self: start;
   background-color: #ffffff;
-  display: flex;
   align-items: center;
+  padding: 25px;
+  height: 900px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 img {
-  max-width: 75%;
+  height: 500px;
+  width: 270px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -60,7 +86,7 @@ img {
 
 footer {
   display: grid;
-  background: #4c589e;
+  background: #2c345f;
   padding: 10px;
   max-height: 200px;
   text-align: center;

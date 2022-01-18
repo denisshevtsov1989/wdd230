@@ -13,11 +13,8 @@
         max-width: 95%;
     }
 
-    h3 {
-        color: aliceblue;
-    }
 
-    .section3 {
+    .third-block {
         grid-column: 3;
     }
 
