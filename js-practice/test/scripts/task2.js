@@ -3,56 +3,54 @@
 /* VARIABLES */
 
 // Step 1: declare and instantiate a variable to hold your name
-let myName = document.querySelector('#name');
+const myName = 'Brother Thayne';
 
 // Step 2: place the value of the name variable into the HTML file (hint: document.querySelector())
-document.querySelector('#name').innerHTML = 'Denis Shevtsov';
+document.querySelector('#name').textContent = myName;
 
 // Step 3: declare and instantiate a variable to hold the current year
-let currentYear = document.querySelector('#year');
-
+const currentYear = 2020;
 
 // Step 4: place the value of the current year variable into the HTML file
-document.querySelector('#year').innerHTML = 2022;
+document.querySelector('#year').textContent = currentYear;
 
 // Step 5: declare and instantiate a variable to hold the name of your picture
-let myPhoto = "DenisShevtsov.jpg";
+const myPicture = 'images/photo.jpg';
 
 // Step 6: copy your image into the "images" folder
 
 // Step 7: place the value of the picture variable into the HTML file (hint: document.querySelector().setAttribute())
+document.querySelector('img').setAttribute('src', myPicture);
 
-document.querySelector('img').src = 'images/DenisShevtsov.jpg';
-var elems = document.getElementsByTagName('img');
-for(var i=0; i<elems.length; i++) elems[i].style.width='200px';
 
 
 /* ARRAYS */
 
 // Step 1: declare and instantiate an array variable to hold your favorite foods
-const fruits = ["Borsh", "Burger", "Pizza", "Ice cream"];
+const favoriteFoods = ['Fettucini', 'Steak', 'Chicken', 'Shrimp'];
 
 // Step 2: place the values of the favorite foods variable into the HTML file
-document.getElementById("food").innerHTML = fruits;
+document.querySelector('#food').textContent = favoriteFoods;
 
 // Step 3: declare and instantiate a variable to hold another favorite food
-fruits.push("Lasania");
+const anotherFavoriteFood = 'Baked Potato';
+
 // Step 4: add the variable holding another favorite food to the favorite food array
-document.getElementById("food").innerHTML = fruits;
+favoriteFoods.push(anotherFavoriteFood);
+
 // Step 5: repeat Step 2
-document.getElementById("food").innerHTML = fruits;
+document.querySelector('#food').textContent = favoriteFoods;
 
 // Step 6: remove the first element in the favorite foods array
-fruits.shift("Borsh");
+favoriteFoods.shift();
 
 // Step 7: repeat Step 2
-document.getElementById("food").innerHTML = fruits;
+document.querySelector('#food').textContent = favoriteFoods;
 
 // Step 8: remove the last element in the favorite foods array
-fruits.pop("Lasania");
+favoriteFoods.pop();
 
 // Step 7: repeat Step 2
-document.getElementById("food").innerHTML = fruits;
-
+document.querySelector('#food').textContent = favoriteFoods;
 
 
