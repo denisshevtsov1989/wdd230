@@ -41,7 +41,8 @@ h2 {
 
 .title {
   justify-content: center;
-
+  background-color: #50556e;
+  color: white;
 }
 
 p {
