@@ -22,7 +22,7 @@ body {
 
 .menu-nav {
   height: 60px;
-  background-color: #5B3933;
+  background-color: rgb(37, 41, 241);
   display: grid;
 }
 
@@ -83,7 +83,7 @@ footer {
 
 .social-box {
   display: grid;
-  background-color: #5B3933;
+  background-color: rgb(37, 41, 241);
   background-position: center;
   margin: 0 auto;
   margin-top: 0px;
