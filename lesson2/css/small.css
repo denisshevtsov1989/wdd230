@@ -14,9 +14,11 @@ header {
 }
 
 #content {
+  max-width: 600px;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
+  text-align: justify;
 }
 
 h1 {
