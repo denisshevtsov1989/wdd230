@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Pacifico&family=Roboto&display=swap');
 
+
 html {
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   font-family: 'Pacifico', cursive;
@@ -10,17 +11,14 @@ html {
 
 body {
   background-color: #F6F6F4;
-  max-width: 1080px;
   margin: 0 auto;
 }
 
 #content {
-  max-width: auto;
+  max-width: 600px;
   margin: 0 auto;
   background-color: #ffffff;
   text-align: justify;
-  max-width: 400px;
-
 }
 
 .menu-nav {

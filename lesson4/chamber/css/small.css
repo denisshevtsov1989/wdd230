@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+}
+
+main {
+  background-color: #f3ddb6;
+  margin: 0;
+  padding: 10px;
+}
+
+#content {
+  max-width: 1680px;
+  margin: 0 auto;
+  background-color: #f3ddb6;
+}
+
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "event hero hero spotlight"
+    "weather hero hero spotlight"
+    "join release release spotlight";
+}
