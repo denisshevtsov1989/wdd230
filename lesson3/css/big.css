@@ -1,18 +1,1 @@
 @media only screen and (min-width: 70em) {
-  #content {
-    max-width: 1040px;
-  }
-
-  .logo-box {
-    width: 10px;
-  }
-
-
-  h1 {
-    font-size: 40px;
-  }
-
-  img {
-    width: 100%;
-  }
-}
