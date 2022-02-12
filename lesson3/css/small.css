@@ -47,8 +47,6 @@ img {}
 }
 
 nav {
-  display: flex;
-  flex-direction: column;
   background-color: #7ac2ec;
 }
 
@@ -58,8 +56,6 @@ nav ul {
   justify-content: center;
 }
 
-
-
 li a {}
 
 a {
@@ -68,14 +64,12 @@ a {
   align-items: center;
 }
 
-nav>.button {
-  flex: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
+nav>button {}
+
+.button {
+  padding: 15px 25px;
   text-align: center;
-  align-self: center;
-  padding: .7em 1.5em;
-  background-color: rgb(42, 165, 48);
+  display: inline-block;
 }
 
 .button:hover {
@@ -89,7 +83,6 @@ nav>.button {
   color: rgb(255, 255, 255);
   margin-left: 50px;
   margin-right: 50px;
-
 }
 
 main {
