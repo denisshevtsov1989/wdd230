@@ -15,46 +15,81 @@ body {
 }
 
 #content {
+
   margin: 0 auto;
   background-color: #ffffff;
   text-align: justify;
 }
 
+/*---'header' container----*/
 header {
   background-color: #4c87df;
-  padding: 5px 0;
+  padding: 3px 0;
+  display: grid;
+
+}
+
+.heanding {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.title-box {}
 
 
+img {}
+
+.title1,
+.title2 {
+  display: flex;
+  flex-direction: column;
+  color: #ececec
+}
 
 nav {
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #7ac2ec;
 }
 
 nav ul {
   display: flex;
   list-style: none;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-  margin: 0;
+  justify-content: center;
 }
 
-img {}
 
-.button {
+
+li a {}
+
+a {
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav>.button {
+  flex: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
   text-align: center;
   align-self: center;
+  padding: .7em 1.5em;
+  background-color: rgb(42, 165, 48);
+}
+
+.button:hover {
+  background: #4c87df;
 }
 
 .home,
 .audience,
 .color-scheme,
 .typography {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 50px;
+
 }
 
 main {
