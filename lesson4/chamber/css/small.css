@@ -11,10 +11,12 @@ body {
 
 /*---'header' container----*/
 
+header {
+  background-color: #2972df;
+}
 
 .header-section {
   display: flex;
-  background-color: #2972df;
   align-items: center;
   padding: 3px 0;
 }
@@ -31,7 +33,6 @@ body {
 
 .novo-title,
 .chamber-title {
-  padding: 10px;
   margin: 20px 0;
 }
 
@@ -56,14 +57,13 @@ li {
 
 a {
   text-decoration: none;
+  list-style: none;
   justify-content: center;
   align-items: center;
 }
 
-nav>button {}
-
 .button {
-  padding: 15px 25px;
+  padding: 10px 15px;
   text-align: center;
   display: inline-block;
 }
@@ -71,6 +71,7 @@ nav>button {}
 .button:hover {
   background: #4c87df;
 }
+
 
 .discover,
 .directory,
@@ -81,20 +82,105 @@ nav>button {}
   margin-right: 50px;
 }
 
+/* ---- end of header ----*/
+
+
+/* ----- start of main container ---- */
+
 main {
-  background-color: #f3ddb6;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding-top: 10px;
+  background-color: #ffffff;
   margin: 0;
   padding: 10px;
+}
+
+#hero {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  margin: 0px;
+}
+
+#event {
+  grid-column: 1;
+  grid-row: 1;
+  margin-right: 0px;
+}
+
+#weather {
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+#release {
+  grid-column: 2/4;
+  grid-row: 3;
+  margin: 0px;
+}
+
+#join {
+  grid-column: 1;
+  grid-row: 3;
+  margin-right: 0px;
+}
+
+#spotlight {
+  grid-column: 4;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 30px;
+  margin-left: 0px;
+  grid-gap: 0px;
+}
+
+#hero,
+#event,
+#weather,
+#release,
+#join,
+#spotlight {
+  padding: 80px;
+  background-color: #ffffff;
+  border: 1px solid #4c87df;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Montserrat,
+    sans-serif;
 }
 
 
 
 
-.home-grid {
+/* ----- end of main container ---- */
+
+.social {
+  margin-left: 23px;
+}
+
+.date {
+  background-color: #4c87df;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  color: antiquewhite;
+  font-family: Montserrat, sans-serif;
+
+  padding: 0.5rem;
+
+}
+
+
+
+
+
+footer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas:
-    "event hero hero spotlight"
-    "weather hero hero spotlight"
-    "join release release spotlight";
+  background-color: #2972df;
 }
