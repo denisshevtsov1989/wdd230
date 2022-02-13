@@ -4,31 +4,49 @@ body {
 }
 
 #content {
-
   margin: 0 auto;
   background-color: #ffffff;
   text-align: justify;
 }
 
 /*---'header' container----*/
-header {
-  background-color: #4c87df;
-  padding: 3px 0;
-  display: grid;
 
-}
 
-.heanding {
+.header-section {
   display: flex;
+  background-color: #2972df;
   align-items: center;
-  justify-content: center;
+  padding: 3px 0;
 }
 
-nav ul {
+.logo {
+  margin-left: 30px;
+}
+
+.title {
+  margin-left: 50px;
+  color: #ececec;
+  font-size: 1.7em;
+}
+
+.novo-title,
+.chamber-title {
+  padding: 10px;
+  margin: 20px 0;
+}
+
+nav {
+  background-color: #065e91;
+}
+
+
+
+.menu {
   display: flex;
   list-style: none;
   justify-content: center;
   margin: 0px;
+
 }
 
 li {
@@ -54,11 +72,23 @@ nav>button {}
   background: #4c87df;
 }
 
+.discover,
+.directory,
+.join,
+.contact {
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 main {
   background-color: #f3ddb6;
   margin: 0;
   padding: 10px;
 }
+
+
+
 
 .home-grid {
   display: grid;
