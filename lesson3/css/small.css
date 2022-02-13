@@ -54,9 +54,13 @@ nav ul {
   display: flex;
   list-style: none;
   justify-content: center;
+  margin: 0px;
 }
 
-li a {}
+li {
+  display: list-item;
+  text-align: -werkit-match-parent;
+}
 
 a {
   text-decoration: none;
@@ -121,4 +125,28 @@ footer {
 .p-white,
 .p-yellow {
   line-height: 50%;
+}
+
+
+
+.colors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "one two tree";
+  height: 250px;
+  justify-items: center;
+  text-align: justify;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.tree {
+  grid-area: three;
 }
