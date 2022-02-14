@@ -1,0 +1,18 @@
+@media only screen and (min-width: 60em) {
+  body {
+      max-width: 1040px;
+      align-self: center;
+  }
+
+
+  main {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin: auto;
+  }
+
+  .third-block {
+      grid-column: 3;
+  }
+
+
+}
