@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @media only screen and (min-width: 480px) {
   main {
     display: grid;
@@ -76,23 +75,3 @@
     display: none;
   }
 }
-=======
-@media only screen and (min-width: 60em) {
-  body {
-      max-width: 1040px;
-      align-self: center;
-  }
-
-
-  main {
-      grid-template-columns: repeat(8, 1fr);
-      margin: auto;
-  }
-
-  .third-block {
-      grid-column: 3;
-  }
-
-
-}
->>>>>>> 34d996fd5acccd3b0558fd6445cd15349a1d1b84
