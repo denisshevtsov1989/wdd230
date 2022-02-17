@@ -10,6 +10,9 @@
     padding: 10px;
   }
 
+
+
+
   #hero {
     grid-column: 1/9;
     grid-row: 1;
