@@ -1,55 +1,81 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 768px) {
 
-    body {
-        max-width: 1080px;
-    }
+  main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 10px;
+    padding-top: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
 
-    main {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+  #hero {
+    grid-column: 1/9;
+    grid-row: 1;
+    margin: 0px;
+  }
 
-    #hero {
-        grid-column: 1/4;
-        grid-row: 1;
-    }
+  #event {
+    grid-column: 1/6;
+    grid-row: 4;
+    margin-right: 0px;
+  }
 
-    #new {
-        grid-column: 1/4;
-        grid-row: 2;
-    }
+  #weather {
+    grid-column: 6/9;
+    grid-row: 4;
+  }
 
-    #spotlight {
-        grid-column: 1/4;
-        grid-row: 3;
-        grid-template-columns: 1fr 1fr;
-    }
+  #release {
+    grid-column: 1/9;
+    grid-row: 2;
+    margin: 0px;
+  }
 
-    #spot3 div:nth-child(3) {
-        display: none;
-    }
+  #join {
+    grid-column: 1/9;
+    grid-row: 4;
+    margin-right: 0px;
+  }
 
-    #spot1 div:nth-child(1) {
-        margin-right: 3px;
-    }
+  #spotlight {
+    grid-column: 1/9;
+    grid-row: 3;
+    display: flex;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    grid-gap: 0px;
+  }
 
-    #spot2 div:nth-child(2) {
-        margin-left: 3px;
-    }
+  .spotlight1 {
+    display: flex;
+    margin: 12px;
+    justify-content: stretch;
+  }
 
-    #join {
-        display: block;
-        grid-column: 1/4;
-        grid-row: 4;
-    }
+  .spot1,
+  .spot2 {
 
-    #event {
-        grid-column: 1/3;
-        grid-row: 5;
-    }
+    background-color: #8be280;
+    border: 1px solid #4c87df;
+    font-family: Montserrat,
+      sans-serif;
+  }
 
-    #weather {
-        grid-column: 3/4;
-        grid-row: 5;
-    }
+  .spot3 {
+    display: none;
+  }
+
+  #hero,
+  #event,
+  #weather,
+  #release,
+  #join,
+  #spotlight {
+    background-color: #d6fcd2;
+    border: 1px solid #4c87df;
+    font-family: Montserrat,
+      sans-serif;
+  }
 }
