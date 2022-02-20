@@ -15,23 +15,6 @@ body {
 
 
 
-.social {
-
-  margin-left: 40px;
-  margin-right: 10px;
-}
-
-.date {
-  background-color: #4c87df;
-  height: 20px;
-  padding: 10px;
-  text-align: center;
-  color: antiquewhite;
-  font-family: Montserrat, sans-serif;
-  padding: 0.5rem;
-
-}
-
 /* ---- end of header ----*/
 
 
@@ -63,6 +46,38 @@ footer {
 /* ----- start of main container ---- */
 
 @media only screen and (min-width: 992px) {
+
+
+  nav ul li a {
+    padding: .5rem 1rem;
+  }
+
+
+  .social {
+
+    margin-left: 40px;
+    margin-right: 10px;
+  }
+
+  .date {
+    background-color: #4c87df;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: Montserrat, sans-serif;
+    padding: 0.5rem;
+
+  }
+
+  .header-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  .logo {}
 
   main {
     display: grid;
