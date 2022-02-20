@@ -12,72 +12,7 @@ body {
 }
 
 /*---'header' container----*/
-/*
-header {
-  background-color: #2972df;
-}
 
-*/
-/* --- menu navigation --- */
-
-
-
-
-/* --- end of menu navigation --- */
-
-/*
-.header-section {
-  align-items: center;
-  padding: 3px 0;
-}
-
-
-.logo {
-  margin-left: 10px;
-}
-
-.title {
-  margin-left: 10px;
-  color: #ececec;
-  font-size: 1.7em;
-}
-
-.novo-title,
-.chamber-title {
-  margin: 10px 0;
-}
-
-
-nav button {
-  margin: .2rem 2vw;
-  background: transparent;
-  border: none;
-  font-size: 2rem;
-}
-
-
-nav ul li a {
-  padding: .8rem 2vw;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.button {
-  padding: 5px 10px;
-  text-align: center;
-  display: inline-block;
-}
-
-
-*/
-
-#content {
-  margin: 0 auto;
-  background-color: #ffffff;
-  text-align: justify;
-}
 
 
 .social {
