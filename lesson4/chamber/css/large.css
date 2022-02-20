@@ -12,16 +12,25 @@ body {
 }
 
 /*---'header' container----*/
-
+/*
 header {
   background-color: #2972df;
 }
 
+*/
+/* --- menu navigation --- */
+
+
+
+
+/* --- end of menu navigation --- */
+
+/*
 .header-section {
-  display: flex;
   align-items: center;
   padding: 3px 0;
 }
+
 
 .logo {
   margin-left: 10px;
@@ -38,40 +47,22 @@ header {
   margin: 10px 0;
 }
 
-nav {
-  background-color: #065e91;
-}
 
 nav button {
   margin: .2rem 2vw;
   background: transparent;
   border: none;
   font-size: 2rem;
-  color: #555;
 }
 
-.menu {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin: 0px;
-
-}
-
-li {
-  display: list-item;
-  text-align: -werkit-match-parent;
-}
 
 nav ul li a {
-  display: block;
   padding: .8rem 2vw;
   text-decoration: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  list-style: none;
   justify-content: center;
   align-items: center;
 }
+
 
 .button {
   padding: 5px 10px;
@@ -79,14 +70,8 @@ nav ul li a {
   display: inline-block;
 }
 
-.button:hover {
-  background: #4c87df;
-}
 
-nav ul li.hero a {
-  background-color: aqua;
-}
-
+*/
 
 #content {
   margin: 0 auto;
@@ -94,94 +79,9 @@ nav ul li.hero a {
   text-align: justify;
 }
 
-/*---'header' container----*/
-
-header {
-  background-color: #2972df;
-}
-
-.header-section {
-  display: flex;
-  align-items: center;
-  padding: 3px 0;
-}
-
-.logo {
-  margin-left: 10px;
-}
-
-.title {
-  margin-left: 10px;
-  color: #ececec;
-  font-size: 1.7em;
-}
-
-.novo-title,
-.chamber-title {
-  margin: 10px 0;
-}
-
-nav {
-  background-color: #065e91;
-}
-
-nav button {
-  margin: .2rem 2vw;
-  background: transparent;
-  border: none;
-  font-size: 2rem;
-  color: #555;
-}
-
-.menu {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin: 0px;
-
-}
-
-li {
-  display: list-item;
-  text-align: -werkit-match-parent;
-}
-
-nav ul li a {
-  display: block;
-  padding: .8rem 2vw;
-  text-decoration: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-}
-
-.button {
-  padding: 5px 10px;
-  text-align: center;
-  display: inline-block;
-}
-
-.button:hover {
-  background: #4c87df;
-}
-
-nav ul li.hero a {
-  background-color: aqua;
-}
-
-
-.discover,
-.directory,
-.join,
-.contact {
-  color: rgb(255, 255, 255);
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
 .social {
-  display: flex;
+
   margin-left: 40px;
   margin-right: 10px;
 }

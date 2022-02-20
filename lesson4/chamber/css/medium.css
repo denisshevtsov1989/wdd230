@@ -1,5 +1,27 @@
 @media only screen and (min-width: 768px) {
 
+  /* --- menu navigation --- */
+
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    margin-left: 2vw;
+    justify-content: flex-end;
+  }
+
+  nav ul li a {
+    border: none;
+    /* move the line */
+
+  }
+
+  /* --- end of menu navigation --- */
+
+
+
   main {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -9,9 +31,6 @@
     background-color: #ffffff;
     padding: 10px;
   }
-
-
-
 
   #hero {
     grid-column: 1/9;

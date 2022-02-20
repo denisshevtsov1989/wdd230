@@ -1,4 +1,52 @@
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 300px) {
+
+  /* header  */
+
+  header {
+    background-color: #1563d8;
+  }
+
+
+  /* --- menu navigation --- */
+
+
+  nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: black;
+  }
+
+
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  nav ul li a:hover {
+    background-color: rgba(55, 131, 230, 0.808);
+  }
+
+  nav ul li.discover a {
+    background-color: rgba(95, 140, 224, 0.1);
+    color: rgb(88, 115, 236);
+  }
+
+  /* --- end of menu navigation --- */
+
+
+  /* --- main started ---*/
   main {
     display: grid;
     grid-template-columns: 1fr;
@@ -75,3 +123,5 @@
     display: none;
   }
 }
+
+/* --- main ended ---*/
