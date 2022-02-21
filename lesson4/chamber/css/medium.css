@@ -66,22 +66,23 @@
   #spotlight {
     grid-column: 1/9;
     grid-row: 3;
-    display: flex;
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-left: 0px;
     grid-gap: 0px;
   }
 
-  .spotlight1 {
-    display: flex;
-    margin: 12px;
-    justify-content: stretch;
+  .spot1 {
+    grid-column: 1/1;
+  }
+
+  .spot2 {
+    grid-column: 2/3;
   }
 
   .spot1,
   .spot2 {
-
-    background-color: #8be280;
+    background-color: #db5517;
     border: 1px solid #4c87df;
     font-family: Montserrat,
       sans-serif;
