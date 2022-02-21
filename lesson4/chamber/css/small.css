@@ -227,6 +227,12 @@
   padding: 0.5rem;
 }
 
+
+#lastModified {
+  text-align: center;
+  font-size: smaller;
+}
+
 /* --- main ended ---*/
 
 /* --- footer --- */
