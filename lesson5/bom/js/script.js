@@ -6,5 +6,6 @@ const listElement = document.getElementsByClassName('list');
 
 buttonElement.addEventListener('click', 
   function() {
+    // get the list size
     
-  })
+  });
