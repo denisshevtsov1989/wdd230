@@ -36,8 +36,8 @@ body {
 #release,
 #join,
 #spotlight {
-  background-color: #3cf045;
-  border: 1px solid #4c87df;
+  /*background-color: #3cf045;
+  border: 1px solid #4c87df;*/
   font-family: Montserrat,
     sans-serif;
 }
@@ -245,7 +245,7 @@ body {
   .spot3 {
     height: 245px;
     width: 245px;
-    background-color: #eb591f;
+    /*background-color: #eb591f;*/
     border: 1px solid #4c87df;
     font-family: Montserrat,
       sans-serif;

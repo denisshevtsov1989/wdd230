@@ -187,7 +187,7 @@
   #release,
   #join,
   #spotlight {
-    background-color: #f7a309;
+    background-color: #d6fcd2;
     border: 1px solid #4c87df;
     font-family: Montserrat,
       sans-serif;
@@ -209,7 +209,7 @@
   .spot1,
   .spot2 {
     height: 100px;
-    background-color: #f7a309;
+    /*background-color: #f7a309;*/
     border: 1px solid #4c87df;
     font-family: Montserrat,
       sans-serif;
