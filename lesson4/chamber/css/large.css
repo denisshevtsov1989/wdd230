@@ -12,8 +12,19 @@ body {
 }
 
 /*---'header' container----*/
-
-
+/* banner*/
+.banner {
+  color: antiquewhite;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  grid-column: 1/5;
+}
 
 /* ---- end of header ----*/
 
@@ -74,8 +85,6 @@ body {
     align-items: center;
   }
 
-  .logo {}
-
 
 
   .discover,
@@ -132,7 +141,65 @@ body {
   #weather {
     grid-column: 1;
     grid-row: 2;
+
+
   }
+
+  .weather1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  .title-weather {
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: start;
+    margin: 7px;
+  }
+
+  .weather1 img {
+    justify-self: end;
+    height: 60px;
+    width: 60px;
+  }
+
+  .temperature {
+    justify-self: start;
+    align-self: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .party-cloudy {
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .wind-speed {
+    grid-column: 1/3;
+    grid-row: 4;
+    justify-self: center;
+    align-self: center;
+    padding: 0px;
+    margin: 3px;
+  }
+
+  .wind-chill {
+    grid-column: 1/3;
+    grid-row: 5;
+    justify-self: center;
+    align-self: center;
+    padding: 0px;
+    margin: 3px;
+  }
+
+
 
   #release {
     grid-column: 2/4;
