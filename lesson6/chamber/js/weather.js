@@ -1,4 +1,4 @@
-let temperature =parseFloat(document.querySelector('#temperature').innerHTML);
+let temperature = parseFloat(document.querySelector('#temperature').innerHTML);
 let windSpeed = parseFloat(document.querySelector('#speed').innerHTML);
 let chill = document.querySelector('#windchill');
 
