@@ -71,10 +71,13 @@
     <!-- -------Content here-------- -->
     <div id="hero">
       <!-- <h4>Hero with site name and call to action</h4> -->
-      <img class="hero-img" srcet="image/wdd230-320w.jpg 320w,
-                   image/wdd230-480w.jpg 480w,
-                   image/wdd230-800w.jpg 800w
-                   " src="image/wdd230-800w.jpg" alt="wdd230-org.jpg" />
+      <picture>
+        <source media="(max-width: 767px)" srcset="image/wdd230-320w.jpg">
+        <source media="(max-width: 991px)" srcset="image/wdd230-480w.jpg">
+        <source media="(min-width: 992px)" srcset="image/wdd230-800w.jpg">
+        <img class="hero-img" src="image/wdd230-800w.jpg" alt="wdd230-org.jpg" />
+      </picture>
+
     </div>
     <div id="event">Event</div>
     <div id="weather">
@@ -83,16 +86,16 @@
         <img class="weather-picture" src="image/clouds-37009_640.png" alt="weather" />
         <p class="temperature">
           <span id="temperature"></span>
-          " °C"
+          °C
         </p>
         <p class="party-cloudy">Party Cloudy</p>
 
-        <p class="wind-speed">"Wind Speed: "
+        <p class="wind-speed">Wind Speed:
           <span id="speed"></span>
           " km/h"
         </p>
         <p class="wind-chill">
-          "Wind Chill: "
+          Wind Chill:
           <span id="windchill"></span>
           N/A
         </p>
